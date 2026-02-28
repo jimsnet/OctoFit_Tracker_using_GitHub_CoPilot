@@ -85,7 +85,7 @@ Once you open it in your web browser you will get a warning like the following:
 
 Once you click `Continue` it should look similar the following:
 
-<img alt="react-frontend-app" src="https://github.com/user-attachments/assets/f7f1a076-c259-49f6-8aa5-9ebcd5f0698d" width=50% height=50%>
+<img alt="react-frontend" src="https://github.com/user-attachments/assets/f7f1a076-c259-49f6-8aa5-9ebcd5f0698d" width=50% height=50%>
 
 ### :keyboard: Activity: Let's add some formatting, structuring, and styling to the octofit tracker app
 

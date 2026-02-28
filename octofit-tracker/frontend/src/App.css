@@ -1,0 +1,127 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #512a97 0%, #6a82fb 100%) !important;
+  box-shadow: 0 2px 8px rgba(81,42,151,0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(81,42,151,0.07);
+}
+
+.card-title {
+  color: #512a97;
+  font-weight: 700;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #512a97;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e9e6f7;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+  border: none;
+}
+
+.btn-info {
+  background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+  color: #fff;
+  border: none;
+}
+
+.btn:hover, .btn:focus {
+  opacity: 0.9;
+}
+
+a, .App-link {
+  color: #512a97;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover, .App-link:hover {
+  color: #fc5c7d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #512a97;
+  font-weight: 700;
+}
+
+/* Logo animation */
+/* Logo size for navbar */
+/* Logo size for navbar */
+/* Logo size for navbar - force with !important */
+.navbar .App-logo {
+  height: 20px !important;
+  width: 20px !important;
+  pointer-events: none;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Navbar text size */
+/* Force larger navbar text */
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+  font-size: 1.25rem !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
